@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 50px;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+input, label, textarea, select {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+input, textarea, select {
+    margin-bottom: 15px;
+}
+
+div #fname, #lname {
+    display: inline-block;
+    width: 49%;
+}
+
+#btn {
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#btn:hover {
+    background-color: rgb(9, 9, 87);
+}
+
+.red {
+    color: red;
+}
+
+::placeholder {
+    padding-left: 5px;
+}
